@@ -1,0 +1,20 @@
+(dp1
+S'output'
+p2
+S''
+sS'layer'
+p3
+S'/home/alumno/web2py/applications/datos/controllers/default.py'
+p4
+sS'code'
+p5
+S'# -*- coding: utf-8 -*-\n# this file is released under public domain and you can use without limitations\n\n#########################################################################\n## This is a samples controller\n## - index is the default action of any application\n## - user is required for authentication and authorization\n## - download is for downloading files uploaded in the db (does streaming)\n## - call exposes all registered services (none by default)\n#########################################################################\n\ndef index():\n    alumnos = db().select(db.alumno.ALL)\n    profesores= db().select(db.profesores.ALL)\n    return dict(alumnos=alumnos,profesores=profesores)\n\ndef detalle():\n\n    alumno=db(db.alumno.codigo==request.args(0)).select()\n    profesor=db(db.profesor.codigo==request.args(0)).select()\n    curso=db(db.curso.codigo==request.args(0)).select\n    return dict(alumno=alumno,profesor=profesor,curso=curso)\n\nresponse._vars=response._caller(index)\n'
+p6
+sS'snapshot'
+p7
+(dp8
+sS'traceback'
+p9
+S'Traceback (most recent call last):\n  File "/home/alumno/web2py/gluon/restricted.py", line 192, in restricted\n    exec ccode in environment\n  File "/home/alumno/web2py/applications/datos/controllers/default.py", line 24, in <module>\n  File "/home/alumno/web2py/gluon/globals.py", line 137, in <lambda>\n    self._caller = lambda f: f()\n  File "/home/alumno/web2py/applications/datos/controllers/default.py", line 14, in index\n    profesores= db().select(db.profesores.ALL)\n  File "/home/alumno/web2py/gluon/dal.py", line 4251, in __getattr__\n    return self[key]\n  File "/home/alumno/web2py/gluon/dal.py", line 4245, in __getitem__\n    return dict.__getitem__(self, str(key))\nKeyError: \'profesores\'\n'
+p10
+s.

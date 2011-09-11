@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="remember_passwords" mtime="1295122727" type="bool" value="false"/>
+	<entry name="homepage" mtime="1295122709" type="string">
+		<stringvalue></stringvalue>
+	</entry>
+</gconf>

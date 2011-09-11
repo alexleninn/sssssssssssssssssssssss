@@ -1,0 +1,99 @@
+# Este fichero viminfo fue generado por Vim 7.2.
+# Usted puede editarlo, ¡solo si tiene cuidado!
+
+# Valor de «encoding» cuando se escribió este fichero
+*encoding=utf-8
+
+
+# hlsearch on (H) or off (h):
+~h
+# Historia de «Línea de comandos» (de lo más nuevo a lo más antiguo):
+:q
+:wq!
+:q!
+
+# Historia de «Cadena de búsqueda» (de lo más nuevo a lo más antiguo):
+
+# Historia de «Expresión» (de lo más nuevo a lo más antiguo):
+
+# Historia de «Línea de entrada» (de lo más nuevo a lo más antiguo):
+
+# Historia de «Línea de entrada» (de lo más nuevo a lo más antiguo):
+
+# Registros:
+
+# Marcas en el fichero:
+'0  36  75  /etc/passwd.edit
+'1  9  27  /etc/apache2/sites-available/default
+'2  2  0  /etc/apache2/sites-available/default
+'3  11  18  /etc/apache2/sites-available/default
+'4  4  14  /etc/apache2/sites-available/default
+'5  1  32  ~/web/index.html
+
+# Lista de saltos (el más reciente va primero):
+-'  36  75  /etc/passwd.edit
+-'  1  0  /etc/passwd.edit
+-'  9  27  /etc/apache2/sites-available/default
+-'  1  0  /etc/apache2/sites-available/default
+-'  2  0  /etc/apache2/sites-available/default
+-'  11  18  /etc/apache2/sites-available/default
+-'  4  14  /etc/apache2/sites-available/default
+-'  1  32  ~/web/index.html
+-'  1  32  ~/web/index.html
+-'  1  32  ~/web/index.html
+-'  1  32  ~/web/index.html
+-'  1  32  ~/web/index.html
+-'  1  32  ~/web/index.html
+-'  1  32  ~/web/index.html
+-'  1  32  ~/web/index.html
+-'  1  32  ~/web/index.html
+-'  1  32  ~/web/index.html
+-'  1  32  ~/web/index.html
+-'  1  32  ~/web/index.html
+-'  1  32  ~/web/index.html
+-'  1  32  ~/web/index.html
+-'  1  32  ~/web/index.html
+-'  1  32  ~/web/index.html
+-'  9  27  /etc/apache2/sites-available/default
+-'  1  0  /etc/apache2/sites-available/default
+-'  2  0  /etc/apache2/sites-available/default
+-'  11  18  /etc/apache2/sites-available/default
+-'  4  14  /etc/apache2/sites-available/default
+-'  1  32  ~/web/index.html
+-'  1  32  ~/web/index.html
+-'  1  32  ~/web/index.html
+-'  1  32  ~/web/index.html
+-'  1  32  ~/web/index.html
+-'  1  32  ~/web/index.html
+-'  1  32  ~/web/index.html
+-'  1  32  ~/web/index.html
+-'  1  32  ~/web/index.html
+-'  1  32  ~/web/index.html
+-'  1  32  ~/web/index.html
+-'  1  32  ~/web/index.html
+-'  1  32  ~/web/index.html
+-'  1  32  ~/web/index.html
+-'  1  32  ~/web/index.html
+-'  1  32  ~/web/index.html
+
+# Historia de las marcas en los ficheros (de la más reciente a la más antigua):
+
+> /etc/passwd.edit
+	"	36	75
+
+> /etc/apache2/sites-available/default
+	"	9	27
+	^	9	28
+	.	9	27
+	+	4	30
+	+	9	28
+	+	7	18
+	+	11	19
+	+	4	29
+	+	9	27
+
+> ~/web/index.html
+	"	1	32
+	^	1	33
+	.	1	32
+	+	1	32

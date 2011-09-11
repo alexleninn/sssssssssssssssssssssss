@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="primary_color" mtime="1295122565" type="string">
+		<stringvalue>#000000000000</stringvalue>
+	</entry>
+	<entry name="secondary_color" mtime="1295122565" type="string">
+		<stringvalue>#2c2c00001e1e</stringvalue>
+	</entry>
+	<entry name="picture_filename" mtime="1295122565" type="string">
+		<stringvalue>/home/alumno/Imágenes/night.png</stringvalue>
+	</entry>
+	<entry name="color_shading_type" mtime="1295122565" type="string">
+		<stringvalue>solid</stringvalue>
+	</entry>
+	<entry name="picture_options" mtime="1295122565" type="string">
+		<stringvalue>zoom</stringvalue>
+	</entry>
+</gconf>

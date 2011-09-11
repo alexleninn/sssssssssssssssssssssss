@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:creativeCommons="http://backend.userland.com/creativeCommonsRssModule" xmlns:media="http://search.yahoo.com/mrss/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:blip="http://blip.tv/dtd/blip/1.0" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:amp="http://www.adobe.com/amp/1.0" xmlns:dcterms="http://purl.org/dc/terms" xmlns:gm="http://www.google.com/schemas/gm/1.1" xmlns:mediaad="http://blip.tv/dtd/mediaad/1.0" version="2.0">
+  <channel>
+    <title>Recent Posts - blip.tv - blip.tv</title>
+    <link>http://blip.tv</link>
+    <description>Recent Posts - blip.tv - blip.tv</description>
+    <language>en-us</language>
+    <generator>http://blip.tv</generator>
+    <lastBuildDate>Wed, 12 Jan 2011 23:40:15 +0000</lastBuildDate>
+    <pubDate>Wed, 12 Jan 2011 23:40:15 +0000</pubDate>
+    <item>
+      <guid isPermaLink="false">4E88A2D6-1EA5-11E0-BCE3-96FF76C67484</guid>
+      <link>http://blip.tv/file/4625348</link>
+      <title>CREACION DEL LOGO LUMENHACK3D USANDO 3D STUDIO MAX</title>
+      <blip:user>lumenhack3d</blip:user>
+      <blip:userid>738098</blip:userid>
+      <blip:safeusername>lumenhack3d</blip:safeusername>
+      <blip:show>MIGUEL MANYARI GALVAN - LUMENHACK 3D</blip:show>
+      <blip:showpage>http://lumenhack3d.blip.tv/</blip:showpage>
+      <blip:picture>http://a.images.blip.tv/Lumenhack3d-picture103.jpg</blip:picture>
+      <blip:posts_id>4643655</blip:posts_id>
+      <blip:item_id>4625348</blip:item_id>
+      <blip:item_type>file</blip:item_type>
+      <blip:contentRating>TV-UN</blip:contentRating>
+      <blip:rating>0.0</blip:rating>
+      <blip:datestamp>2011-01-12T23:40:15Z</blip:datestamp>
+      <blip:language>English</blip:language>
+      <blip:adChannel/>
+      <blip:recommendations>0</blip:recommendations>
+      <blip:recommendable>0</blip:recommendable>
+      <blip:core>0</blip:core>
+      <blip:adminRating/>
+      <blip:runtime>862</blip:runtime>
+      <blip:embedLookup>AYKbtysC</blip:embedLookup>
+      <blip:embedUrl type="application/x-shockwave-flash">http://blip.tv/play/AYKbtysC</blip:embedUrl>
+      <wfw:commentRss>http://blip.tv/comments/?attached_to=post4643655&amp;skin=rss</wfw:commentRss>
+      <blip:thumbnail_src>Lumenhack3d-CREACIONDELLOGOLUMENHACK3DUSANDO3DSTUDIOMAX707.jpg</blip:thumbnail_src>
+      <blip:puredescription></blip:puredescription>
+      <blip:smallThumbnail>http://a.images.blip.tv/Lumenhack3d-CREACIONDELLOGOLUMENHACK3DUSANDO3DSTUDIOMAX707-891.jpg</blip:smallThumbnail>
+      <blip:license>No license (All rights reserved)</blip:license>
+      <description>
+
+&lt;embed src="http://blip.tv/play/AYKbtysC" type="application/x-shockwave-flash" width="480" height="390" allowscriptaccess="always" allowfullscreen="true"&gt;&lt;/embed&gt;
+&lt;br /&gt;
+
+&lt;br /&gt;
+
+
+</description>
+      <comments>http://blip.tv/file/4625348</comments>
+      <category>Educational</category>
+      <category>3d</category>
+      <category>max</category>
+      <category>logo</category>
+      <category>diseño</category>
+      <category>continental</category>
+      <category>miguel</category>
+      <category>manyari</category>
+      <category>lumenhack</category>
+      <pubDate>Wed, 12 Jan 2011 23:40:15 +0000</pubDate>
+      <enclosure url="http://blip.tv/file/get/Lumenhack3d-CREACIONDELLOGOLUMENHACK3DUSANDO3DSTUDIOMAX983.flv" type="video/x-flv" length="27876671"/>
+      <itunes:keywords>3d, max, logo, diseño, continental, miguel, manyari, lumenhack</itunes:keywords>
+      <itunes:image>http://a.images.blip.tv/Lumenhack3d-CREACIONDELLOGOLUMENHACK3DUSANDO3DSTUDIOMAX707.jpg</itunes:image>
+      <media:keywords>3d, max, logo, diseño, continental, miguel, manyari, lumenhack</media:keywords>
+      <media:group>
+        <media:content url="http://blip.tv/file/get/Lumenhack3d-CREACIONDELLOGOLUMENHACK3DUSANDO3DSTUDIOMAX983.flv" blip:role="Source" blip:vcodec="" blip:acodec="mp3" expression="full" fileSize="27876671" height="600" isDefault="true" type="video/x-flv" width="800">
+          <mediaad:content exc="0" position="preroll" pro="0" provider="freewheel" wgt="11"/>
+          <mediaad:content exc="0" position="preroll" pro="0" provider="scanscoutbranded" wgt="0"/>
+          <mediaad:content duration="15" exc="0" position="overlay" pro="0" provider="freewheel" start="5" wgt="11"/>
+          <mediaad:content duration="15" exc="0" position="overlay" pro="0" provider="scanscout" start="5" wgt="0"/>
+          <mediaad:content duration="15" exc="0" position="overlay" pro="0" provider="scanscoutbranded" start="5" wgt="0"/>
+          <mediaad:content exc="0" position="postroll" pro="0" provider="freewheel" wgt="11"/>
+          <mediaad:content exc="0" position="postroll" pro="0" provider="podaddies" wgt="0"/>
+        </media:content>
+      </media:group>
+      <media:player url="http://blip.tv/file/4625348">&lt;embed src="http://blip.tv/play/AYKbtysC" type="application/x-shockwave-flash" width="480" height="390" allowscriptaccess="always" allowfullscreen="true"&gt;&lt;/embed&gt;</media:player>
+      <media:title>CREACION DEL LOGO LUMENHACK3D USANDO 3D STUDIO MAX</media:title>
+      <media:thumbnail url="http://a.images.blip.tv/Lumenhack3d-CREACIONDELLOGOLUMENHACK3DUSANDO3DSTUDIOMAX707.jpg"/>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,20 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Version=1.0
+Name=Chromium Web Browser
+Name[es]=Navegador web Chromium
+GenericName=Web Browser
+GenericName[es]=Navegador web
+Comment=Access the Internet
+Comment[es]=Acceda a Internet
+Exec=/usr/bin/chromium-browser %U
+Terminal=false
+X-MultipleArgs=false
+Type=Application
+Icon=chromium-browser
+Categories=Network;WebBrowser;
+MimeType=text/html;text/xml;application/xhtml_xml;
+StartupWMClass=Chromium-browser
+StartupNotify=true
+Name[es_PE]=Chromium

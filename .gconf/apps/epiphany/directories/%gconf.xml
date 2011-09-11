@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="downloads_folder" mtime="1295122719" type="string">
+		<stringvalue>Descargas</stringvalue>
+	</entry>
+</gconf>

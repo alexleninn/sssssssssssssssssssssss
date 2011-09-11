@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="history-gnome-run" mtime="1295372470" type="list" ltype="string">
+		<li type="string">
+			<stringvalue>firefox</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>gtk-recordMyDesktop</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>gnome-terminal</stringvalue>
+		</li>
+	</entry>
+</gconf>

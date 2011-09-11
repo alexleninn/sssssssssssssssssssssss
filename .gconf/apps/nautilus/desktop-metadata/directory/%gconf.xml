@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="nautilus-window-scroll-position" mtime="1295403128" type="string">
+		<stringvalue>file:///home/alumno/Escritorio/Chromium.desktop</stringvalue>
+	</entry>
+	<entry name="nautilus-icon-view-layout-timestamp" mtime="1315702449" type="string">
+		<stringvalue>1315702449</stringvalue>
+	</entry>
+	<entry name="nautilus-icon-view-keep-aligned" mtime="1315702447" type="string">
+		<stringvalue>true</stringvalue>
+	</entry>
+</gconf>

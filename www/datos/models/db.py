@@ -1,0 +1,57 @@
+# -*- coding: utf-8 -*-
+import datetime
+
+now=datetime.datetime.today()
+
+db=DAL('sqlite://datos.db');
+db.define_table('alumno',Field('codigo'),
+                        Field('nombre'),
+                        Field('apellidos'),
+                        Field('fnacimiento','date'),
+                        Field('email'),
+                        Field('hobby','text'))
+                        
+db.alumno.codigo.requires=IS_NOT_EMPTY(error_message='no puede estar vacio')
+db.alumno.nombre.requires=IS_LENGTH(20,error_message='no mas de 20')
+db.alumno.apellidos.requires=IS_ALPHANUMERIC()
+db.alumno.fnacimiento.requires=IS_DATE('%Y-%m-%d')
+db.alumno.email.requires=IS_EMAIL()
+db.alumno.hobby.default='estudiar :P'
+
+db.define_table('profesor',Field('codigo'),
+                            Field('nombre_completo'),
+                            Field('especialidad','text'),
+                            Field('anios_experiencia','integer'))
+                            
+db.profesor.codigo.requires=IS_NOT_EMPTY()
+db.profesor.codigo.requires=IS_ALPHANUMERIC()
+db.profesor.nombre_completo.requires=IS_LENGTH(100)
+db.profesor.nombre_completo.requires=IS_NOT_EMPTY()
+db.profesor.anios_experiencia.requires=IS_INT_IN_RANGE(0,50)
+
+db.define_table('curso',Field('codigo'),
+                        Field('nombre'),
+                        Field('descripcion'))
+db.curso.codigo.requires=IS_NOT_EMPTY()
+db.curso.codigo.requires=IS_ALPHANUMERIC()
+db.curso.nombre.requires=IS_NOT_EMPTY()
+db.curso.nombre.requires=IS_LENGTH(100)
+db.curso.descripcion.requires=IS_LENGTH(160)
+db.curso.descripcion.requires=IS_ALPHANUMERIC()
+
+db.define_table('asistencia',Field('fecha','datetime'),
+                             Field('asistencia','boolean'),
+                             Field('cod_alumno',db.alumno))
+
+db.asistencia.fecha.default=now
+db.asistencia.cod_alumno.requieres=IS_NOT_EMPTY() 
+db.asistencia.cod_alumno.requires=IS_IN_DB(db,db.alumno.id,'%(nombre)s')
+
+db.define_table('alumno_curso',Field('cod_alumno',db.alumno),
+                                Field('cod_curso',db.curso))
+
+db.alumno_curso.cod_alumno.requires=IS_NOT_EMPTY()
+db.alumno_curso.cod_curso.requires=IS_NOT_EMPTY()
+db.alumno_curso.cod_curso.requires=IS_ALPHANUMERIC()
+db.alumno_curso.cod_curso.requires=IS_IN_DB(db,db.curso.id,'%(nombre)s')
+db.alumno_curso.cod_alumno.requires=IS_IN_DB(db,db.alumno.id,'%(nombre)s')

@@ -1,0 +1,163 @@
+<?xml version="1.0"?>
+<livePassConfig ccsWallTimeSec="1294951055" >
+    <common>
+        <gateways>
+            <gateway protocolVersion="0" loadState="available">https://gw001.lphbs.com</gateway>
+            <gateway protocolVersion="0" loadState="available">https://gw002.lphbs.com</gateway>
+            <gateway protocolVersion="0" loadState="available">https://gw003.lphbs.com</gateway>
+            <gateway protocolVersion="0" loadState="available">https://gw004.lphbs.com</gateway>
+            <gateway protocolVersion="0" loadState="available">https://gw005.lphbs.com</gateway>
+            <gateway protocolVersion="0" loadState="available">https://gw006.lphbs.com</gateway>
+            <gateway protocolVersion="0" loadState="available">https://gw007.lphbs.com</gateway>
+            <gateway protocolVersion="0" loadState="available">https://gw008.lphbs.com</gateway>
+            <gateway protocolVersion="0" loadState="available">https://gw009.lphbs.com</gateway>
+            <gateway protocolVersion="0" loadState="available">https://gw010.lphbs.com</gateway>
+            <gateway protocolVersion="0" loadState="available">https://gw011.lphbs.com</gateway>
+            <gateway protocolVersion="0" loadState="available">https://gw012.lphbs.com</gateway>
+            <gateway protocolVersion="0" loadState="available">https://gw013.lphbs.com</gateway>
+            <gateway protocolVersion="0" loadState="available">https://gw014.lphbs.com</gateway>
+            <gateway protocolVersion="0" loadState="available">https://gw015.lphbs.com</gateway>
+            <gateway protocolVersion="0" loadState="available">https://gw016.lphbs.com</gateway>
+            <gateway protocolVersion="0" loadState="available">https://gw017.lphbs.com</gateway>
+            <gateway protocolVersion="0" loadState="available">https://gw018.lphbs.com</gateway>
+            <gateway protocolVersion="0" loadState="available">https://gw019.lphbs.com</gateway>
+            <gateway protocolVersion="0" loadState="available">https://gw020.lphbs.com</gateway>
+            <gateway protocolVersion="0" loadState="available">https://gw021.lphbs.com</gateway>
+            <gateway protocolVersion="0" loadState="available">https://gw022.lphbs.com</gateway>
+            <gateway protocolVersion="0" loadState="available">https://gw023.lphbs.com</gateway>
+            <gateway protocolVersion="0" loadState="available">https://gw024.lphbs.com</gateway>
+            <gateway protocolVersion="0" loadState="available">https://gw025.lphbs.com</gateway>
+            <gateway protocolVersion="0" loadState="available">https://gw026.lphbs.com</gateway>
+            <gateway protocolVersion="0" loadState="available">https://gw027.lphbs.com</gateway>
+            <gateway protocolVersion="0" loadState="available">https://gw028.lphbs.com</gateway>
+            <gateway protocolVersion="0" loadState="available">https://gw029.lphbs.com</gateway>
+            <gateway protocolVersion="0" loadState="available">https://gw030.lphbs.com</gateway>
+            <gateway protocolVersion="0" loadState="available">https://gw031.lphbs.com</gateway>
+            <gateway protocolVersion="0" loadState="available">https://gw032.lphbs.com</gateway>
+            <gateway protocolVersion="0" loadState="available">https://gw033.lphbs.com</gateway>
+            <gateway protocolVersion="0" loadState="available">https://gw034.lphbs.com</gateway>
+            <gateway protocolVersion="0" loadState="available">https://gw035.lphbs.com</gateway>
+            <gateway protocolVersion="0" loadState="available">https://gw036.lphbs.com</gateway>
+            <gateway protocolVersion="0" loadState="available">https://gw037.lphbs.com</gateway>
+            <gateway protocolVersion="0" loadState="available">https://gw038.lphbs.com</gateway>
+            <gateway protocolVersion="0" loadState="available">https://gw039.lphbs.com</gateway>
+            <gateway protocolVersion="0" loadState="available">https://gw040.lphbs.com</gateway>
+            <gateway protocolVersion="0" loadState="available">https://gw041.lphbs.com</gateway>
+            <gateway protocolVersion="0" loadState="available">https://gw042.lphbs.com</gateway>
+            <gateway protocolVersion="0" loadState="available">https://gw043.lphbs.com</gateway>
+            <gateway protocolVersion="0" loadState="available">https://gw044.lphbs.com</gateway>
+            <gateway protocolVersion="0" loadState="available">https://gw045.lphbs.com</gateway>
+            <gateway protocolVersion="0" loadState="available">https://gw046.lphbs.com</gateway>
+            <gateway protocolVersion="0" loadState="available">https://gw047.lphbs.com</gateway>
+            <gateway protocolVersion="0" loadState="available">https://gw048.lphbs.com</gateway>
+            <gateway protocolVersion="0" loadState="available">https://gw049.lphbs.com</gateway>
+            <gateway protocolVersion="0" loadState="available">https://gw050.lphbs.com</gateway>
+            <gateway protocolVersion="0" loadState="available">https://gw051.lphbs.com</gateway>
+            <gateway protocolVersion="0" loadState="available">https://gw052.lphbs.com</gateway>
+            <gateway protocolVersion="0" loadState="available">https://gw053.lphbs.com</gateway>
+            <gateway protocolVersion="0" loadState="available">https://gw054.lphbs.com</gateway>
+            <gateway protocolVersion="0" loadState="available">https://gw055.lphbs.com</gateway>
+            <gateway protocolVersion="0" loadState="available">https://gw056.lphbs.com</gateway>
+            <gateway protocolVersion="0" loadState="available">https://gw057.lphbs.com</gateway>
+            <gateway protocolVersion="0" loadState="available">https://gw058.lphbs.com</gateway>
+            <gateway protocolVersion="0" loadState="available">https://gw059.lphbs.com</gateway>
+            <gateway protocolVersion="0" loadState="available">https://gw060.lphbs.com</gateway>
+            <gateway protocolVersion="0" loadState="available">https://gw061.lphbs.com</gateway>
+            <gateway protocolVersion="0" loadState="available">https://gw062.lphbs.com</gateway>
+            <gateway protocolVersion="0" loadState="available">https://gw063.lphbs.com</gateway>
+            <gateway protocolVersion="0" loadState="available">https://gw064.lphbs.com</gateway>
+            <gateway protocolVersion="0" loadState="available">https://gw065.lphbs.com</gateway>
+            <gateway protocolVersion="0" loadState="available">https://gw066.lphbs.com</gateway>
+            <gateway protocolVersion="0" loadState="available">https://gw067.lphbs.com</gateway>
+            <gateway protocolVersion="0" loadState="available">https://gw068.lphbs.com</gateway>
+            <gateway protocolVersion="0" loadState="available">https://gw069.lphbs.com</gateway>
+            <gateway protocolVersion="0" loadState="available">https://gw070.lphbs.com</gateway>
+            <gateway protocolVersion="0" loadState="available">https://gw071.lphbs.com</gateway>
+            <gateway protocolVersion="0" loadState="available">https://gw072.lphbs.com</gateway>
+            <gateway protocolVersion="0" loadState="available">https://gw073.lphbs.com</gateway>
+            <gateway protocolVersion="0" loadState="available">https://gw074.lphbs.com</gateway>
+            <gateway protocolVersion="0" loadState="available">https://gw075.lphbs.com</gateway>
+            <gateway protocolVersion="0" loadState="available">https://gw076.lphbs.com</gateway>
+            <gateway protocolVersion="0" loadState="available">https://gw077.lphbs.com</gateway>
+            <gateway protocolVersion="0" loadState="available">https://gw078.lphbs.com</gateway>
+            <gateway protocolVersion="0" loadState="available">https://gw079.lphbs.com</gateway>
+            <gateway protocolVersion="0" loadState="available">https://gw080.lphbs.com</gateway>
+            <gateway protocolVersion="0" loadState="available">https://gw081.lphbs.com</gateway>
+            <gateway protocolVersion="0" loadState="available">https://gw082.lphbs.com</gateway>
+            <gateway protocolVersion="0" loadState="available">https://gw083.lphbs.com</gateway>
+            <gateway protocolVersion="0" loadState="available">https://gw084.lphbs.com</gateway>
+            <gateway protocolVersion="0" loadState="available">https://gw085.lphbs.com</gateway>
+            <gateway protocolVersion="0" loadState="available">https://gw086.lphbs.com</gateway>
+            <gateway protocolVersion="0" loadState="available">https://gw087.lphbs.com</gateway>
+            <gateway protocolVersion="0" loadState="available">https://gw088.lphbs.com</gateway>
+            <gateway protocolVersion="0" loadState="available">https://gw089.lphbs.com</gateway>
+            <gateway protocolVersion="0" loadState="available">https://gw090.lphbs.com</gateway>
+        </gateways>
+    </common>
+    <alternative name="id" affinity="10000">
+        <ConfigLoadIgnoreSec value="7"/>
+        <bwUpdateIntervalSec value="10"/>
+        <bytesLoadedSwitchDownEnabled value="true"/>
+        <checkpointTokenBucketDepth value="1"/>
+        <checkpointTokenBucketIntervalSec value="50"/>
+        <connectionRacerMemoryEnabled value="false"/>
+        <externalEventKeyMaxLen value="16"/>
+        <externalEventNameMaxLen value="16"/>
+        <externalEventNumEntriesMaxCount value="40"/>
+        <externalEventTokenBucketDepth value="20"/>
+        <externalEventTokenBucketIntervalSec value="10"/>
+        <externalEventTotalValLenMaxLen value="500"/>
+        <externalEventValMaxLen value="128"/>
+        <fastSwitchUpEnabled value="false"/>
+        <frameDropRatioThreshold value="25"/>
+        <hbTokenBucketDepth value="1"/>
+        <hbTokenBucketIntervalSec value="30"/>
+        <heartbeatInterval msecs="20000"/>
+        <heartbeatIntervalLightMs value="-1"/>
+        <heartbeatIntervalPauseMs value="-1"/>
+        <heartbeatIntervalUrgentFullMs value="2000"/>
+        <heartbeatIntervalUrgentLightMs value="2000"/>
+        <initSelectResourceIntervalMs value="800"/>
+        <internalEventEnabled value="false"/>
+        <internalEventKeyMaxLen value="128"/>
+        <internalEventNameMaxLen value="16"/>
+        <internalEventNumEntriesMaxCount value="100"/>
+        <internalEventTokenBucketDepth value="10"/>
+        <internalEventTokenBucketIntervalSec value="2"/>
+        <internalEventTotalValLenMaxLen value="2000"/>
+        <internalEventValMaxLen value="128"/>
+        <joinHbDelayMs value="20000"/>
+        <jsModulePath value="http://livepassdl.conviva.com/ver/2.20.0.38360/LivePassModuleMain.js"/>
+        <lazySwitchLockEnabled value="false"/>
+        <liveBufferTimeSec value="5"/>
+        <maxLiveControlBufferEvent value="15"/>
+        <maxLiveControlBufferingTimeSec value="7"/>
+        <maxLiveControlDurationSec value="30"/>
+        <maxLiveControlInitBufferingTimeSec value="11"/>
+        <maxPlayerBufferingIntervalSec secs="300"/>
+        <maxPlayerErrorIntervalSec secs="30"/>
+        <maxPlayerNotMonitoredIntervalSec secs="600"/>
+        <maxPlayerPausedIntervalSec secs="600"/>
+        <maxPlayerStoppedIntervalSec secs="30"/>
+        <maxSwitchLockTimeSec value="120"/>
+        <metricQuotaDictName maxlen="16"/>
+        <metricQuotaDictVal maxlen="128"/>
+        <metricQuotaEntries maxcount="12"/>
+        <metricQuotaFilterAttrs maxcount="4"/>
+        <metricQuotaName maxlen="16"/>
+        <metricQuotaStateVars maxcount="30"/>
+        <metricQuotaWindow msecs="60000"/>
+        <minStartStopIntervalMs value="-1"/>
+        <modulePath>http://livepassdl.conviva.com/ver/2.19.0_38190/LivePassModuleMain.swf</modulePath>
+        <phtStopThresholdSec value="10"/>
+        <protocolVersion ver="0"/>
+        <recoverForByteRuleEnabled value="true"/>
+        <refreshInterval secs="300"/>
+        <selectResourceIntervalMs value="60000"/>
+        <silverModulePath>http://livepassdl.conviva.com/ver/2.20.0.38360/LivePassModuleMain.dll</silverModulePath>
+        <syncModeEnabled value="true"/>
+        <tokenExpiredIntervalSec value="30"/>
+        <traceOnSwitchDurationThresholdSec value="60"/>
+        <unpublishNotifyEnabled value="true"/>
+    </alternative>
+</livePassConfig>

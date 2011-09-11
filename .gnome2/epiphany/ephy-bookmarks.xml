@@ -1,0 +1,71 @@
+<?xml version="1.0"?>
+<ephy_bookmarks version="1.03">
+  <!--Do not rely on this file, it's only for internal use. Use bookmarks.rdf instead.-->
+  <node id="30">
+    <property id="5" value_type="gchararray">Entretenimiento</property>
+    <property id="8" value_type="gint">2</property>
+    <parent id="1"/>
+  </node>
+  <node id="31">
+    <property id="5" value_type="gchararray">Noticias</property>
+    <property id="8" value_type="gint">2</property>
+    <parent id="1"/>
+  </node>
+  <node id="32">
+    <property id="5" value_type="gchararray">Compras</property>
+    <property id="8" value_type="gint">2</property>
+    <parent id="1"/>
+  </node>
+  <node id="33">
+    <property id="5" value_type="gchararray">Deportes</property>
+    <property id="8" value_type="gint">2</property>
+    <parent id="1"/>
+  </node>
+  <node id="34">
+    <property id="5" value_type="gchararray">Viajes</property>
+    <property id="8" value_type="gint">2</property>
+    <parent id="1"/>
+  </node>
+  <node id="35">
+    <property id="5" value_type="gchararray">Trabajo</property>
+    <property id="8" value_type="gint">2</property>
+    <parent id="1"/>
+  </node>
+  <node id="36">
+    <property id="2" value_type="gchararray">Buscar por la web</property>
+    <property id="3" value_type="gchararray">http://www.google.com/search?client=ubuntu&amp;channel=es&amp;q=%s&amp;ie=UTF-8&amp;oe=UTF-8</property>
+    <property id="4" value_type="gchararray"> buscar por la web</property>
+    <parent id="0"/>
+    <parent id="10"/>
+    <parent id="3"/>
+  </node>
+  <node id="37">
+    <property id="2" value_type="gchararray">Debian</property>
+    <property id="3" value_type="gchararray">http://www.debian.org/</property>
+    <property id="4" value_type="gchararray"> debian</property>
+    <parent id="0"/>
+    <parent id="3"/>
+  </node>
+  <node id="38">
+    <property id="2" value_type="gchararray">GNOME</property>
+    <property id="3" value_type="gchararray">http://www.gnome.org/</property>
+    <property id="4" value_type="gchararray"> gnome</property>
+    <parent id="0"/>
+    <parent id="3"/>
+  </node>
+  <node id="39">
+    <property id="2" value_type="gchararray">Planet Debian</property>
+    <property id="3" value_type="gchararray">http://planet.debian.org/</property>
+    <property id="4" value_type="gchararray"> planet debian</property>
+    <parent id="0"/>
+    <parent id="3"/>
+  </node>
+  <node id="40">
+    <property id="2" value_type="gchararray">Debian Bug Tracking System</property>
+    <property id="3" value_type="gchararray">http://bugs.debian.org/%s</property>
+    <property id="4" value_type="gchararray"> debian bug tracking system</property>
+    <parent id="0"/>
+    <parent id="10"/>
+    <parent id="3"/>
+  </node>
+</ephy_bookmarks>

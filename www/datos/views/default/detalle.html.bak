@@ -1,0 +1,27 @@
+{{extend 'layout.html'}}
+
+{{for datos in alumno:}}
+    <h1>{{=datos.nombre}} {{=datos.apellidos}}</h1>
+    <h2>codigo estudiante: {{=datos.codigo}}</h2>
+    <p>
+    {{=datos.nombre}} nacio el {{=datos.fnacimiento}}.
+    tiene como pasatiempo {{=datos.hobby}}.<br>
+    su correo electronico es:
+    <strong><a href='mailto:{{=datos.email}}'>{{=datos.email}}</a></strong>
+    </p>
+    
+{{pass}}
+
+{{for datos in profesor:}}
+    <h1>{{=datos.nombre_completo}}</h1><br>
+    <h2>Codigo: {{=datos.codigo}}</h2>
+    <h2>Especialidad: {{=datos.especialidad}}</h2>
+    <h2>Experiencia: {{=datos.anios_experiencia}} años</h2>
+    
+{{pass}}
+
+{{for datos in curso:}}
+    <h1>{{=datos.nombre}}</h1>
+    <h2>Codigo:{{=datos.codigo}}</h2> 
+    <h2>Descripcion{{=datos.descripcion}}</h2>
+{{pass}}

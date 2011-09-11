@@ -1,0 +1,9 @@
+2011-01-13 11:10:40,263 - softwarecenter.fixme - WARNING - logs to the root logger: '('/usr/share/software-center/softwarecenter/db/database.py', 96, 'open')'
+2011-01-13 11:10:40,263 - root - WARNING - failed to add sca db Couldn't detect type of database
+2011-01-13 11:10:40,265 - softwarecenter.fixme - WARNING - logs to the root logger: '('/usr/share/software-center/softwarecenter/db/database.py', 96, 'open')'
+2011-01-13 11:10:40,264 - root - WARNING - failed to add sca db Couldn't detect type of database
+2011-01-13 11:10:45,168 - softwarecenter.fixme - WARNING - logs to the root logger: '('/usr/share/software-center/softwarecenter/db/database.py', 96, 'open')'
+2011-01-13 11:10:45,168 - root - WARNING - failed to add sca db Couldn't detect type of database
+2011-01-13 11:11:11,088 - softwarecenter.app - INFO - software-center-agent finished with status 1
+2011-01-13 11:11:15,382 - softwarecenter.app - INFO - software-center-agent finished with status 1
+2011-01-13 11:11:23,343 - softwarecenter.app - INFO - software-center-agent finished with status 0

@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="themes" mtime="1294857970" type="list" ltype="string">
+		<li type="string">
+			<stringvalue>screensavers-footlogo-floaters</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>screensavers-hypertorus</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>screensavers-gltext</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>screensavers-glslideshow</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>screensavers-glschool</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>screensavers-glmatrix</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>screensavers-glcells</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>screensavers-glblur</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>screensavers-fuzzyflakes</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>screensavers-ubuntu_theme</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>screensavers-fiberlamp</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>screensavers-cosmos-slideshow</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>screensavers-personal-slideshow</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>screensavers-antspotlight</stringvalue>
+		</li>
+	</entry>
+	<entry name="mode" mtime="1294857970" type="string">
+		<stringvalue>random</stringvalue>
+	</entry>
+</gconf>

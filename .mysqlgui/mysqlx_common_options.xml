@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<application_options>
+  <group name="general">
+    <property name="connections_filename" value="mysqlx_user_connections.xml"/>
+    <property name="password_storage_type" value="1"/>
+  </group>
+</application_options>

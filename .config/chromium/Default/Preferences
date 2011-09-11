@@ -1,0 +1,56 @@
+{
+   "browser": {
+      "clear_data": {
+         "passwords": true,
+         "time_period": 4
+      }
+   },
+   "countryid_at_install": 20549,
+   "default_search_provider": {
+      "id": "2",
+      "name": "Google",
+      "prepopulate_id": "1",
+      "search_url": "{google:baseURL}search?{google:RLZ}{google:acceptedSuggestion}{google:originalQueryForSuggestion}sourceid=chrome&client=ubuntu&channel=cs&ie={inputEncoding}&q={searchTerms}",
+      "suggest_url": "{google:baseSuggestURL}search?client=chrome&hl={language}&q={searchTerms}"
+   },
+   "download": {
+      "directory_upgrade": true,
+      "extensions_to_open": ""
+   },
+   "extensions": {
+      "autoupdate": {
+         "last_check": "12960176584980097",
+         "next_check": "12960194852408151"
+      },
+      "blacklistupdate": {
+         "lastpingday": "12960111607736973",
+         "version": "0.0.0.5"
+      },
+      "chrome_url_overrides": {
+         "bookmarks": [ "chrome-extension://eemcgdkfndhakfknompkggombfjjjeno/main.html" ]
+      },
+      "settings": {
+         "hpibmhghjndideebpackbdlpncgkcppp": {
+            "blacklist": true
+         },
+         "lncjcfkpannmofmpgdfoonkniofdnaba": {
+            "blacklist": true
+         }
+      }
+   },
+   "homepage": "http://www.google.com/",
+   "homepage_is_newtabpage": false,
+   "ntp": {
+      "pref_version": 2,
+      "shown_sections": 29
+   },
+   "profile": {
+      "content_settings": {
+         "pref_version": 1
+      },
+      "exited_cleanly": false
+   },
+   "tabs": {
+      "use_vertical_tabs": false
+   }
+}

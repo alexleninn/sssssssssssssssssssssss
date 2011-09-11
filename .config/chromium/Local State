@@ -1,0 +1,56 @@
+{
+   "": "",
+   "HostReferralList": [ 1, [ "http://tools.google.com/", [ "http://fonts.googleapis.com/", 0, 0.6799999999999999, "http://themes.googleusercontent.com/", 0, 0.6799999999999999, "http://www.google-analytics.com/", 0, 0.6799999999999999, "http://www.google.com/", 0, 0.33999999999999997 ] ], [ "http://www.google.com.pe/", [ "http://clients1.google.com.pe/", 486, 0.33999999999999997 ] ] ],
+   "StartupDNSPrefetchList": [ 1, "http://clients1.google.com.pe/", "http://www.google.com.pe/", "http://www.google.com/" ],
+   "browser": {
+      "last_known_google_url": "http://www.google.com.pe/",
+      "window_placement": {
+         "bottom": 700,
+         "left": 0,
+         "maximized": true,
+         "right": 1004,
+         "top": 0,
+         "work_area_bottom": 744,
+         "work_area_left": 0,
+         "work_area_right": 1024,
+         "work_area_top": 24
+      }
+   },
+   "options_window": {
+      "last_tab_index": 2
+   },
+   "safe_browsing": {
+      "client_key": "qA-5ey6xOldD8Pzp4IHF0A==",
+      "wrapped_key": "AKEgNitwv_k5rEDz2jd9mfvGNZ-wORn8ZYbrCRkDapePHDeZeS8IqQ2_34bSLWhRIjdmpTlxKXYGCsq82UXvL-GtVI24rI04sA=="
+   },
+   "shutdown": {
+      "num_processes": 0,
+      "num_processes_slow": 0,
+      "type": 0
+   },
+   "uninstall_metrics": {
+      "installation_date2": "1294935001",
+      "launch_count": "4"
+   },
+   "user_experience_metrics": {
+      "session_id": 3,
+      "stability": {
+         "breakpad_registration_fail": 4,
+         "breakpad_registration_ok": 0,
+         "crash_count": 0,
+         "debugger_not_present": 4,
+         "debugger_present": 0,
+         "exited_cleanly": false,
+         "incomplete_session_end_count": 0,
+         "last_timestamp_sec": "1315703122",
+         "launch_count": 4,
+         "launch_time_sec": "1315702522",
+         "page_load_count": 0,
+         "renderer_crash_count": 0,
+         "renderer_hang_count": 0,
+         "session_end_completed": true,
+         "stats_buildtime": "1285874172",
+         "stats_version": "6.0.472.63-devel"
+      }
+   }
+}

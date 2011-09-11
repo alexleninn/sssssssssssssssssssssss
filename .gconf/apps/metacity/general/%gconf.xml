@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="button_layout" mtime="1294857070" type="string">
+		<stringvalue>close,minimize,maximize:</stringvalue>
+	</entry>
+	<entry name="theme" mtime="1295122510" type="string">
+		<stringvalue>Radiance</stringvalue>
+	</entry>
+</gconf>

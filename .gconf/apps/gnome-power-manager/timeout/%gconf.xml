@@ -1,0 +1,4 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="sleep_display_ac" mtime="1294857980" type="int" value="1800"/>
+</gconf>

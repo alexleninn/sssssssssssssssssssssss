@@ -1,0 +1,31 @@
+content webdeveloper                                 jar:chrome/webdeveloper.jar!/content/webdeveloper/
+content webdeveloper                                 jar:chrome/webdeveloper.jar!/content/webdeveloper/      contentaccessible=yes
+locale  webdeveloper en-US                           jar:chrome/webdeveloper.jar!/locale/en-US/webdeveloper/
+locale  webdeveloper cs-CZ                           jar:chrome/webdeveloper.jar!/locale/cs-CZ/webdeveloper/
+locale  webdeveloper da-DK                           jar:chrome/webdeveloper.jar!/locale/da-DK/webdeveloper/
+locale  webdeveloper de-DE                           jar:chrome/webdeveloper.jar!/locale/de-DE/webdeveloper/
+locale  webdeveloper el-GR                           jar:chrome/webdeveloper.jar!/locale/el-GR/webdeveloper/
+locale  webdeveloper es-ES                           jar:chrome/webdeveloper.jar!/locale/es-ES/webdeveloper/
+locale  webdeveloper fi-FI                           jar:chrome/webdeveloper.jar!/locale/fi-FI/webdeveloper/
+locale  webdeveloper fr-FR                           jar:chrome/webdeveloper.jar!/locale/fr-FR/webdeveloper/
+locale  webdeveloper hu-HU                           jar:chrome/webdeveloper.jar!/locale/hu-HU/webdeveloper/
+locale  webdeveloper it-IT                           jar:chrome/webdeveloper.jar!/locale/it-IT/webdeveloper/
+locale  webdeveloper ja-JP                           jar:chrome/webdeveloper.jar!/locale/ja-JP/webdeveloper/
+locale  webdeveloper ko-KR                           jar:chrome/webdeveloper.jar!/locale/ko-KR/webdeveloper/
+locale  webdeveloper mk-MK                           jar:chrome/webdeveloper.jar!/locale/mk-MK/webdeveloper/
+locale  webdeveloper nl-NL                           jar:chrome/webdeveloper.jar!/locale/nl-NL/webdeveloper/
+locale  webdeveloper pl-PL                           jar:chrome/webdeveloper.jar!/locale/pl-PL/webdeveloper/
+locale  webdeveloper pt-BR                           jar:chrome/webdeveloper.jar!/locale/pt-BR/webdeveloper/
+locale  webdeveloper pt-PT                           jar:chrome/webdeveloper.jar!/locale/pt-PT/webdeveloper/
+locale  webdeveloper ru-RU                           jar:chrome/webdeveloper.jar!/locale/ru-RU/webdeveloper/
+locale  webdeveloper sk-SK                           jar:chrome/webdeveloper.jar!/locale/sk-SK/webdeveloper/
+locale  webdeveloper th-TH                           jar:chrome/webdeveloper.jar!/locale/th-TH/webdeveloper/
+locale  webdeveloper tr-TR                           jar:chrome/webdeveloper.jar!/locale/tr-TR/webdeveloper/
+locale  webdeveloper zh-CN                           jar:chrome/webdeveloper.jar!/locale/zh-CN/webdeveloper/
+locale  webdeveloper zh-TW                           jar:chrome/webdeveloper.jar!/locale/zh-TW/webdeveloper/
+overlay	chrome://browser/content/browser.xul	     	 chrome://webdeveloper/content/webdeveloper.xul
+overlay	chrome://navigator/content/navigator.xul     chrome://webdeveloper/content/webdeveloper-seamonkey.xul
+skin    webdeveloper classic/1.0                     jar:chrome/webdeveloper.jar!/skin/classic/webdeveloper/
+style	  chrome://browser/content/browser.xul	     	 chrome://webdeveloper/skin/webdeveloper.css
+style	  chrome://global/content/customizeToolbar.xul chrome://webdeveloper/skin/webdeveloper.css
+style	  chrome://navigator/content/navigator.xul     chrome://webdeveloper/skin/webdeveloper.css

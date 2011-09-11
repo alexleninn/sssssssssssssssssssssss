@@ -1,0 +1,13 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Version=1.0
+Type=Application
+Terminal=false
+Icon[es_PE]=/
+Name[es_PE]=xzoom
+Exec=xzoom -geometry 600x200
+Comment[es_PE]=xzoom modified
+Name=xzoom
+Comment=xzoom modified
+Icon=/usr/share/icons/hicolor/scalable/devices/totem-tv.svg

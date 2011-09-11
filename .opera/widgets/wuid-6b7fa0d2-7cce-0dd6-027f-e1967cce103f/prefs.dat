@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<preferences>
+  <section id="ui">
+    <value id="name" xml:space="preserve">Web Server</value>
+  </section>
+  <section id="wuid-6b7fa0d2-7cce-0dd6-027f-e1967cce103f">
+    <value id="network_access" xml:space="preserve">24</value>
+  </section>
+</preferences>

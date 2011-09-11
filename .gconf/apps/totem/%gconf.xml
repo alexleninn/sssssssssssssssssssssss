@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="subtitle_encoding" mtime="1294949882" type="string">
+		<stringvalue>UTF-8</stringvalue>
+	</entry>
+	<entry name="visual_quality" mtime="1294949882" type="int" value="0"/>
+	<entry name="visual" mtime="1294949882" type="string">
+		<stringvalue>GOOM: what a GOOM!</stringvalue>
+	</entry>
+	<entry name="show_vfx" mtime="1294949882" type="bool" value="true"/>
+	<entry name="audio_output_type" mtime="1294949882" type="int" value="0"/>
+	<entry name="debug" mtime="1294949881" type="bool" value="false"/>
+</gconf>

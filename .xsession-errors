@@ -1,0 +1,59 @@
+/etc/gdm/Xsession: Beginning session setup...
+Setting IM through im-switch for locale=es_PE.
+Start IM through /etc/X11/xinit/xinput.d/all_ALL linked to /etc/X11/xinit/xinput.d/default.
+GNOME_KEYRING_CONTROL=/tmp/keyring-tiJMIa
+GNOME_KEYRING_PID=1053
+GNOME_KEYRING_CONTROL=/tmp/keyring-tiJMIa
+SSH_AUTH_SOCK=/tmp/keyring-tiJMIa/ssh
+GNOME_KEYRING_CONTROL=/tmp/keyring-tiJMIa
+SSH_AUTH_SOCK=/tmp/keyring-tiJMIa/ssh
+
+(polkit-gnome-authentication-agent-1:1300): GLib-GObject-WARNING **: cannot register existing type `_PolkitError'
+
+(polkit-gnome-authentication-agent-1:1300): GLib-CRITICAL **: g_once_init_leave: assertion `initialization_value != 0' failed
+** Message: applet now removed from the notification area
+Initializing nautilus-gdu extension
+Unable to find a synaptics device.
+
+(nautilus:1297): GConf-CRITICAL **: gconf_value_free: assertion `value != NULL' failed
+
+** (nautilus:1297): WARNING **: Can not calculate _NET_NUMBER_OF_DESKTOPS
+
+** (nautilus:1297): WARNING **: Can not calculate _NET_NUMBER_OF_DESKTOPS
+
+** (nautilus:1297): WARNING **: Can not get _NET_WORKAREA
+
+** (nautilus:1297): WARNING **: Can not determine workarea, guessing at layout
+/usr/bin/compiz (core) - Fatal: Software rendering detected.
+/usr/bin/compiz (core) - Error: Failed to manage screen: 0
+/usr/bin/compiz (core) - Fatal: No manageable screens found on display :0.0
+** Message: applet now embedded in the notification area
+
+** (gnome-settings-daemon:1057): WARNING **: Got less number of items in credentials hash table than expected!
+
+(nautilus:1297): GConf-CRITICAL **: gconf_value_free: assertion `value != NULL' failed
+
+(nautilus:1297): GConf-CRITICAL **: gconf_value_free: assertion `value != NULL' failed
+
+(nautilus:1297): GConf-CRITICAL **: gconf_value_free: assertion `value != NULL' failed
+
+(nautilus:1297): GConf-CRITICAL **: gconf_value_free: assertion `value != NULL' failed
+/usr/lib/python2.6/dist-packages/UpdateManager/SimpleGtkbuilderApp.py:35: GtkWarning: Ignoring the separator setting
+  self.builder.add_from_file(path)
+** (update-notifier:1773): DEBUG: aptdaemon on bus: 0
+** (update-notifier:1773): DEBUG: Skipping reboot required
+
+(nautilus:1297): GConf-CRITICAL **: gconf_value_free: assertion `value != NULL' failed
+
+(nautilus:1297): GConf-CRITICAL **: gconf_value_free: assertion `value != NULL' failed
+Nautilus-Share-Message: Called "net usershare info" but it failed: La «red compartida» devolvió el error 255: net usershare: cannot open usershare directory /var/lib/samba/usershares. Error No existe el fichero o el directorio
+Please ask your system administrator to enable user sharing.
+
+
+(exe:1858): Gdk-WARNING **: XID collision, trouble ahead
+
+(nautilus:1297): GConf-CRITICAL **: gconf_value_free: assertion `value != NULL' failed
+
+(nautilus:1297): GConf-CRITICAL **: gconf_value_free: assertion `value != NULL' failed
+
+(exe:1858): Gdk-WARNING **: XID collision, trouble ahead

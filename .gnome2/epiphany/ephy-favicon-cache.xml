@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<ephy_favicons_cache version="1.1">
+  <node id="30">
+    <property id="2" value_type="gchararray">http://lumenhack.com/favicon.ico</property>
+    <property id="3" value_type="gchararray">0e6e7a5912ceca4980f16a841a2607a5</property>
+    <property id="4" value_type="gint">1295122759</property>
+    <property id="6" value_type="gboolean">0</property>
+    <property id="7" value_type="gint">61</property>
+    <parent id="9"/>
+  </node>
+</ephy_favicons_cache>

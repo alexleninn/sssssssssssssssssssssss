@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<application_options>
+  <group name="administrator">
+    <property name="show_user_global_privileges" value="no"/>
+    <property name="show_user_table_column_privileges" value="no"/>
+    <property name="last_backup_directory" value="/home/alumno"/>
+    <property name="disable_backup_timestamps" value="no"/>
+    <property name="start_script_path" value="/etc/init.d/mysql"/>
+    <property name="connection_list_auto_refresh" value="0"/>
+  </group>
+</application_options>

@@ -1,0 +1,24 @@
+apt-get install tasksel
+tasksel install lamp-server
+tasksel install openssh-server
+tasksel install postgresql-server
+apt-get install geany
+apt-get install terminator
+apt-get install vim
+apt-get install php5-symfony1.0
+apt-get install netspeed
+apt-get install phpmyadmin
+apt-get install codeblocks
+apt-get install glade
+apt-get install python-mysqldb
+apt-get install gimp
+apt-get install chromium-browser
+apt-get install epiphany-browser
+apt-get install mysql-admin
+apt-get install pgadmin3g
+apt-get install xzoom
+apt-get install git gitk giggle gitweb
+apt-get install exim4
+apt-get install bzr
+apt-get install mercurial
+

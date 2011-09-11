@@ -1,0 +1,447 @@
+>>RELEASE 20090421<<
+
+20090421
+	El para ya no se ejecuta nunca si en la primer iteracion el contador no cumple la condicion
+	Corregida la comprobación de tipos en los limites de un PARA
+	Corregida la verificacion de las dimensiones de arreglos como constantes
+	Corregidos algunos errores en la exportación a código C++
+
+>>RELEASE 20090408<<
+
+20090408
+	Ya no se pueden dimensionar arreglos utilizando variables o funciones. Las expresiones de los indices deben ser constantes
+
+20090407
+	Agregada un signo mayor a modo de prompt cuando el intérprete espera una entrada de datos (LEER)
+	Corregida la violación de segmento al aceptar el cuadro de dialogo de variables para la prueba de escritorio con la lista vacia
+
+20090406
+	Corregido el comportamiento de la opcion "Permitir palabras clave como operadores" al ejecutar paso a paso
+	Agregada una opción al graficador de diagramas de flujo para generar imágenes de mayor resolución
+
+>>RELEASE 20090404<<
+
+20090404
+	Agregada una opcion en el menu Ayuda para buscar actualizaciones utilizando Internet
+
+20090402
+	Agregada una opcion en el menu Configurar para ver la interpretacion en colores
+	Corregido el comportamiento de la opcion "Permitir palabras clave como operadores" al ejecutar
+
+>>RELEASE 20090325<<
+
+20090325
+	Corregido un error al evaluar productos y divisiones con variables negativas
+
+20090324
+	Ahora la wxPSeInt puede lanzarse desde una carpeta que no sea la propia.
+
+20090318
+	Cambiado el tipo de socket para comunicar interprete y gui para la ejecución paso a paso para que no requiera privilegios de administrador en GNU/Linux
+
+>>RELEASE 20081211<<
+
+20081211
+	Mejorada la combinacion de autocompletado+indentado inteligente, para reacomodar las palabras que cierran bloques (como FINPARA, HASTA QUE, etc).
+	Implemetadas las ayudas emergentes (se muestra un globo tipo calltip indicando que se debe ingresar, segun cada instruccion).
+	Cambiada la forma en que se muestran los segmentos de codigo a reemplazar en las plantillas para cada instrucción.
+
+20081205
+	Corregido el error al utilizar la función AZAR con una variable.
+
+
+>>RELEASE 20081125<<
+
+20081125
+	El primer error de la lista se selecciona automáticamente si no se pudo ejecutar, y si la ejecución se interrumpió por un error.
+	Corregido el bug que afectaba a los paras con paso negativo.
+
+>>RELEASE 20081106<<
+
+20081106
+	Corregidos los problemas de evaluacion de determinadas expresiones lógicas.
+
+20081105
+	La seleccion de puertos para la comunicacion de depuracion es aleatoria, para poder correr más de una instancia de PSeInt en un misma máquina, y evitar problemas si se bloquea un puerto.
+	Mejorada la comunicacion de estados para la depuracion entre la interfaz y el interprete.
+	Ahora se puede iniciar la depuracion parandola en el primer paso con el boton "Primer Paso".
+
+20081104
+	Al hacer doble click sobre un renglon de la prueba de escritorio se selecciona la linea de codigo correspondiente.
+
+>>RELEASE 20081103<<
+
+20081102
+	Ya no se pueden modificar los algoritmos durante la ejecución paso a paso.
+	Ahora los ejemplos se pueden abrir directamente desde la ventana de ayuda.
+	Agregado un boton en el panel de depuración para evaluar una expresion arbitraria.
+	Agregada la prueba de escritorio al panel de depuración.
+
+>>RELEASE 20081031<<
+
+20081031
+	Corregida la exportación a c++ de bucles PARA.
+
+20081030
+	Corregido el control de la depuración en Windows.
+	Modificados los filtros de cuadro de dialogo para guardar el diagrama de flujo para permitir guardar como bmp o png además de jpg.
+	Ya no se necesita convert de ImageMagick para guardar los diagramas de flujo en jpg o png.
+	Corregidos los errores al dibujar diagramas de flujo (ancho de las estructuras SI y posición del dibujo final).
+	Implementada la habilitación y deshabilitación del los botones del panel de depuración según el estado del depurador.
+	Solucionado provisoriamente el cuelgue al iniciar la ejecución sin cerrar una depuración en proceso.
+
+20080719
+	Corregido el cierre de la aplicación cuando todavía se están ejecutando procesos.
+
+20080718
+	Implementado el panel de ejecucion paso a paso (estado, control de velocidad, pausa, y paso manual).
+
+>>RELEASE 20080711<<
+
+20080711
+	Corregido el operador modulo para no colgar el interprete si el divisor es cero
+	Agregado un ejemplo del uso del nuevo operador mod (o %).
+	Corregido el servidor para depuración en el intérprete para Windows.
+
+20080701
+	Implementado el operador modulo (% o mod).
+	Ahora se pueden utilizar las palabras Y, O y NO en lugar de los operadores lógicos.
+
+20080623
+	Implemenda la ejecución paso a paso (automática).
+	Corregido el nombre de la ventana de la consola.
+
+20080602
+	Reordenada la lista de autocompletado para su correcto despliegue.
+
+>>RELEASE 20080524<<
+
+20080524
+	Corregida la visualizacion del paso del PARA en el diagrama de flujo.
+	Agregado como ejemplo el juego de las torres de Hanoi.
+	Corregido el control de dimensiones de arreglos en determinadas expresiones.
+	Corregido el reemplazo de variables en expresiones logicas.
+
+20080502
+	Corregida la evaluacion de expresiones logicas compuestas donde intervienen variables de distinto tipo.
+
+>>RELEASE 20080429<<
+
+20080429
+	Al salir la GUI ya recuerda el directorio donde abrio/guardo el ultimo archivo.
+	La GUI ahora puede ejecutar varios algoritmos al mismo tiempo sin conflictos.
+	Se agrego un parametro para definir si se controla o no el uso del punto y coma.
+	Se agrego un parametro para verificar que no se intente acceder a variables no inicializadas.
+
+>>RELEASE 20080428<<
+
+20080428
+	Nuevo icono ;).
+	Corregida la definicion del coloreado de sintaxis (ahora es abren mas rapido las pestañas).	
+	Ahora se pueden abrir archivos arrastrandolos a la ventana de wxPSeInt.
+	Ahora se pueden abrir archivos al cargar la GUI si se los pasa como parametros.
+	Agregado un historial con los ultimos cinco archivos abiertos.
+	Se corrigio el incremento del contador en el for al exportar a cpp un para con paso 1.
+
+>>RELEASE 20080427<<
+
+20080427
+	Se corrigio la visualizacion del autocompletado.
+	Se agregaron ejemplos simples nuevos.
+	Se agrego una opcion para abrir ejemplos en el menu ayuda.
+	Se corrigio la determinacion de tipos al comparar numeros leidos de consola.
+	La GUI ahora tambien muestra los errores en tiempo de ejecución.
+	Se agregaron en la base de datos de ayuda rapida de errores los mensajes para errores relacionados a las dimensiones de un arreglo.
+
+>>RELEASE 20080426<<
+
+20080426
+	Se completo la primera verison nueva interfaz.
+	Se agregaron las nuevas funciones (tan, asen, acos) al exportador a pseudocodigo.
+
+20080423
+	Se agregaron nuevos parametros al pseint para interactuar con la nueva GUI.
+
+20080422
+	Se comenzo a programar la nueva interfaz basada en wxWidgets.
+
+>>RELEASE 20080421<<
+
+20080421
+	Se mejoro la determinacion de tipos en la lectura y evaluacion de expresiones.
+	Se corrigió el funcionamiento de la estructura SEGUN.
+	
+>>RELEASE 20080420<<
+
+20080420
+	Se corrigio la codificacion de caracteres en la gui para Linux.
+	Se agregaron las funciones trigonometricas TAN, ASEN y ACOS.
+	Ahora se puede utilizar el guion bajo en los nombres de variables.
+	Se corrigio el manejo interno de numeros con notacion exponencial.
+
+>>RELEASE 20080220<<
+
+20080220
+	Se corrigieron varios memory leaks y errores en el dimensionamiento de los arreglos.
+	Se implemento la primer aproximacion a la determinacion de tipos en psexport.
+	Se incorporo el modulo psexport al paquete (permite exportar los algoritmos a codigo c++).
+	Se colocaron correctamente las dependencias en los makefiles para linux.
+	Se agregaron los makefiles para windows.
+
+20080218
+	Se corrigio el remplazo de nombres de variable de mayor longitud que su contenido.
+
+>>RELEASE 20080125<<
+
+20080126
+	Se corrigio la evaluacion de literales tipo caracter (caso 'q0').
+
+20070505
+	Se corrigio el log de salida del instalador para linux.
+	Se corrigio la sintaxis del cambio de permisos en el script de instalacion para linux.
+	Se colorearon los mensajes del instalador para linux.
+
+>>RELEASE 20070421<<
+
+20070421
+	Se agregaron las funciones para la teclas ESC y las flechas en el nuevo psdraw.
+	Se centro la posición inicial del diagrama en el título del proceso.
+	Se corrigió la función StrToDbl de utils.h para la correcta representación de números presedidos por el signo +.
+
+>>RELEASE 20070327<<
+
+20070327
+	Se agregó la opción para exportar diagramas de flujo en GPSeInt.
+	Se modificó el script de instalación para linux.: si no funciona el graficador nuevo, se intenta utilizar el viejo.
+
+20070326
+	Se agregó la opción para exportar diagramas de flujo en VPSeInt.
+	Se agregó el cuadro de diálogo reemplazar en VPSeInt.
+	Se reescribió psdraw utilizando la libreria CImg.
+	 
+>>RELEASE 20061023<<
+
+20061023
+    Nuevamente se puede utilizar el operador de potenciación '^'.
+
+20061022
+	Se corrigio la separacion de la expresion y el identificador de variable al ejecutar la asignacion.
+
+>>RELEASE 20060820<<
+
+20060820
+	Se cambio la forma de dibujo en psdraw para Windows (ahora se hace una vez y se copia con BitBlt).
+	Se optimizó el espacio en el dibujo de la estructura SEGUN en psdraw.
+	Se corrigio el problema con las lineas derecha e izquierda del MIENTRAS en psdraw.
+	Se arreglo la copia de las imagenes en el script de instalacios para Linux.
+
+20060814
+	Se corrigio el control del error 84 (demasidos parametros) en la asignación.
+	Se corrigio el control del tipo de expresion para el valos del paso en un PARA.
+	Se corrigio el control de la presencia de la condicion en HASTA QUE.
+
+>>RELEASE 20060813<<
+
+20060813
+	Se agrego el menu de comandos en VPSeInt.
+	Se agrearon las opciones para abrir y volver ejecutar el ultimo algoritmo ejecutado en VPSeInt.
+	Se cambiaron los iconos de VPSeInt por los utilizados en GPSeInt.
+	Se corrigieron porblemas de espaciado y margenes en PSDraw.
+	Se porto PSDraw a Windows y se integro a VPSeInt.
+
+20060812
+	El cuadro de ayuda rapida puede utilizar ahora una barra de desplazamiento en GPSeInt.
+	Se agrego el primero borrador de la ayuda rápida de comandos.
+	Se agrego el menu de comandos en GPSeInt.
+	Se corrigio el control de caracter no valido en el intérprete.
+
+>>RELEASE 20060808<<
+
+20060808
+	Se reemplazo la funcion gets por getline en la interpretacion de LEER en pseint.
+	Se comenzo la optimizacion de espacio en PSDraw.
+	Se completo una la primera versión de prueba de PSDraw.
+
+20060731
+	Se agrego la opcion ver diagrama de flujo en GPSeInt.
+	Se le agrego la opcion --draw al interprete para generar el archivo de entrada a PSDraw.
+
+20060803
+	Se cambio el orden en que se copian los archivos en el script instalar.
+	Se matan los procesos del pseint antes de instalar en el script instalar.
+
+20060731
+	Se agrego la opcion ver diagrama de flujo en la GUI.
+	Se le agrego la opcion --draw al interprete para generar el archivo de entrada a PSDraw.
+	Creacion de PSDraw, programa para graficar diagramas de flujo.
+
+>>RELEASE 20060702<<
+
+20060701
+	Se corrigio el control de la presencia de la expresión del SEGUN.
+	Se corrigio la linea en la que marca las estructuras de control que no se cerraron.
+	Se agrego la ayuda rapida en VPSeInt.
+	
+20060630
+	Se corregio el control de los ENTONCES y SINO fuera de SI.
+	GPSeInt recuerda correctamente ahora las opciones del menú Configuración.
+	Se comenzo la redaccion de la ayuda rapida.
+	Se agrego la ventana de ayuda rapida a GPSeInt.
+	El interprete diferencia los errores por numero.
+
+>>RELEASE 20060610<<
+
+20060610
+	Se corrigio la expresion a evaluar en el SEGUN.
+	Se corrigio el comportamiento en las teclas de edicion modificadas en GPSeInt.
+
+20060604
+	Se corrigio el problema de las variables tipo caracter con numeros en su identificador.
+
+>>RELEASE 20060513<<
+
+20060513
+	Se corrigieron errores en el coloreado de codigo de GPSeInt.
+	Se cambio el directorio temporal de VPSeInt para evitar problemas de permisos.
+	Se corrigieron los warnings de VPSeInt.
+	
+20060508
+	Se optimizo (pero todavia falta mucho mas) el colereado del codigo en la GPSeInt.
+	Se agregaron DEFINIR y COMO a la lista de palabras reservadas.
+	Se corrigio la lista de palabras reservadas a resaltar en GPSeInt.
+
+>>RELEASE 20060507<<
+
+20060507
+	Se el orden de los archivos recientemente utilizados en GPSeInt.
+	Se corrigio el problema de las comparaciones numericas(un "==" mal puesto en expresiones.h).
+	Se agrego el resaltado de palabras claves en GPSeInt.
+
+20060506
+	Se comenzo el resaltado de sintaxis en GPSeInt.
+	
+20060504
+	Se agregaron las opciones del ancho del tabulado al menú de configuración en GPSeInt.
+	Se alteraró el comportamiento de las teclas incio, shift+tab y backspace en GPSeInt.
+	Se corrigió el atajo de teclado para cerrar archivo en la GPSeInt.
+
+20060503
+	Se alteraró el comportamiento de las teclas tab y enter en GPSeInt.
+	Ya no se utiliza GtkSourceBuffer en GPSeInt.
+	Se corrigió el atajo de teclado para salir en GPSeInt.
+
+>>RELEASE 20060501<<
+
+20060501
+	Se corrigio del problema del ENTONCES solo al final del SI.
+	DE OTRO MODO puede ir tambien sin los dos puntos al final.
+	Correccion del problema de restar una variable o expresion negativa.
+	Correccion de la comparacion con operadores compuestos.
+	
+>>RELEASE 20060429<<
+
+20060429
+	Correccion de los errores de redondeo.
+	Se incorporo la posibilidad de recuperar el ultimo codigo ejecutado en GPSeInt.
+	Se completaron los atajos de teclado en GPSeInt.
+
+20060414
+	Se suprimieron los warnings de gtk al cerrar pestañas en GPSeInt.
+	Se modifico la barra de herramientas en la GPSeInt.
+	Se agregaron los ultimos archivos utilizados al menu archivo en GPSeInt.
+
+>>RELEASE 20060413<<
+
+20060413
+	Se corrigio el problema de las comaparaciones con variables vacias.
+	Se corrigio el problema de las comaparaciones con constantes logicas.
+	La entrada de una variable logica con LEER es ahora case insensitive.
+	Se corrigio un bug al adivinar tipo de datos para un arreglo.
+	Se corrigio un bug al devolver un dato no definido de un arreglo.
+	Se pueden utilizar corchetes para los indices y dimensiones de los arreglos.
+	El script de instalacion para Linux ahora controla los problemas de compilacion e intenta utilizar las binarios precompilados.
+	GPSeInt se puede compilar ahora sin GtkSourceView.
+
+20060410
+	El paquete para Linux ahora tambien es autoextraible.
+	GPSeInt solo muestra el nombre del archivo sin el path en las pestañas.
+	
+20060408
+	Ya no aparece en consola el error del GtkSourceView al crear un nuevo archivo en GPSeInt.
+	Al seleccionar un error en la lista de errores se selecciona la linea en el algoritmo ahora tambien en GPSeInt.
+	Se corrigieron los permisos para archivos y carpetas en el script de instalcion para Linux.
+
+>>RELEASE 20060405<<
+
+20060405
+	Se corrigio el punto de salida de la estructura SEGUN.
+	Se corrigio el cambio del SI-ENTONCES del 20060331.
+	Se corrigio el largo del vector prog_lines.
+	Modificación de algunos mensajes de error.
+	GPSeInt graba su posición y tamaño anque no salgamos con Archivo->Salir.
+	GPSeInt ya acepta archivos a abrir como parametro.
+	Se corrigio el problema de los signos +/- al comienza la expresion en la asignación del PARA.
+	Se mejoraron los Makefiles.
+
+>>RELEASE 20060331<<
+
+20060331
+	Se reemplazaron los vectores bucles y bucles_line del intérprete por pilas.
+	ENTONCES ahora puede estar en la misma linea que el SI.
+ 
+20060330
+	Se corrigio el problema de los signos +/- al comienza la expresion en la asignación.
+	Se agregó el control de existencia de salida por verdadero para el condicional SI.
+	Identado por tabs en el fuente del intérprete.
+	Se agregaron las opciones "deshacer" y "rehacer" a GPSeInt.
+
+>>RELEASE 20050814<<
+
+20060114
+	Se agrego la instruccion DEFINIR para explicitar el tipo de variable.
+	Se agregaron atajos de teclado para ejecutar en GPSeInt.
+
+20051022
+	Se corrigio el problema de las expresiones con < ó > y espacios.
+
+>>RELEASE 20050814<<
+
+20051008
+	Se corrigio el problema de los numeros negativos luego de palabras reservadas (CON PASO, y HASTE QUE).
+	Se fijo a 3 el ancho del identado en GPSeInt.
+
+>>RELEASE 20050814<<
+
+20050822
+	Se actualizo la documentacion de la version para Linux.
+	Se agregaron los numeros de linea en la ventana de edicion.
+	Se cambio el widget TextView por SourceView en GPSeInt para facilitar el identado.
+    
+>>RELEASE 20050814<<
+
+20050814
+	Agregado control de operador incorrecto cuando hay espacios.
+	Se suprimieron las opciones de optimizacion de los makefiles.
+
+20050813
+	Actualización de la imágen del cuadro Acerca de.
+
+20050811
+	Mejoras al script de instalación para Linux.
+	Incorporación de archivos Makefiles.
+
+20050809
+	Mayor modularizacion del codigo para mejorar su lectura y mantenimento.
+	Correcciones varias en el control del uso de arreglos y variables con el mismo nombre.
+	Ya no es necesario el ';' al final de las instrucciones secuenciales.
+	Agregada funcion AZAR(n) que devuelve un entero aleatorio entre 0 y n-1.
+
+20050808
+	Conocí personalmente a dos de los primeros usuarios ;).
+	Correccion de bug en nombres de variables de la forma LetrasNumerosLetras.
+	Agregado control de identificador no valido para el nombre del proceso.
+	Corrección en la primera ejecucion de un bucle REPETIR ... HASTA QUE.
+	Corrección de error (por la división con punto flotante) en la función DblToString().
+	Creación del registro de cambios ;).   
+    
+>>RELEASE 20050319<<

@@ -1,0 +1,30 @@
+2011-01-12 13:57:25,944:944.11110878 - ubuntu-sso-login - INFO - Starting Ubuntu SSO login manager for bus 'com.ubuntu.sso'.
+2011-01-12 13:57:25,960:960.289001465 - ubuntu_sso.main - INFO - keyring_get_credentials: app_name "Ubuntu One", resulting credentials is not None? False
+2011-01-12 13:57:25,960:960.614919662 - ubuntu_sso.main - INFO - find_credentials: app_name "Ubuntu One", result is {}? True
+2011-01-12 17:25:22,618:618.701934814 - ubuntu-sso-login - INFO - Starting Ubuntu SSO login manager for bus 'com.ubuntu.sso'.
+2011-01-12 17:25:22,696:696.892023087 - ubuntu_sso.main - INFO - keyring_get_credentials: app_name "Ubuntu One", resulting credentials is not None? False
+2011-01-12 17:25:22,697:697.314023972 - ubuntu_sso.main - INFO - find_credentials: app_name "Ubuntu One", result is {}? True
+2011-01-12 18:07:05,732:732.1870327 - ubuntu-sso-login - INFO - Starting Ubuntu SSO login manager for bus 'com.ubuntu.sso'.
+2011-01-12 18:07:05,784:784.570932388 - ubuntu_sso.main - INFO - keyring_get_credentials: app_name "Ubuntu One", resulting credentials is not None? False
+2011-01-12 18:07:05,785:785.139083862 - ubuntu_sso.main - INFO - find_credentials: app_name "Ubuntu One", result is {}? True
+2011-01-13 10:36:08,528:528.496980667 - ubuntu-sso-login - INFO - Starting Ubuntu SSO login manager for bus 'com.ubuntu.sso'.
+2011-01-13 10:36:08,548:548.410892487 - ubuntu_sso.main - INFO - keyring_get_credentials: app_name "Ubuntu One", resulting credentials is not None? False
+2011-01-13 10:36:08,548:548.899888992 - ubuntu_sso.main - INFO - find_credentials: app_name "Ubuntu One", result is {}? True
+2011-01-13 12:41:21,888:888.489961624 - ubuntu-sso-login - INFO - Starting Ubuntu SSO login manager for bus 'com.ubuntu.sso'.
+2011-01-13 12:41:21,938:938.137054443 - ubuntu_sso.main - INFO - keyring_get_credentials: app_name "Ubuntu One", resulting credentials is not None? False
+2011-01-13 12:41:21,938:938.528060913 - ubuntu_sso.main - INFO - find_credentials: app_name "Ubuntu One", result is {}? True
+2011-01-13 16:52:26,965:965.950012207 - ubuntu-sso-login - INFO - Starting Ubuntu SSO login manager for bus 'com.ubuntu.sso'.
+2011-01-13 16:52:26,998:998.57711792 - ubuntu_sso.main - INFO - keyring_get_credentials: app_name "Ubuntu One", resulting credentials is not None? False
+2011-01-13 16:52:26,999:999.005079269 - ubuntu_sso.main - INFO - find_credentials: app_name "Ubuntu One", result is {}? True
+2011-01-15 14:50:02,064:64.7740364075 - ubuntu-sso-login - INFO - Starting Ubuntu SSO login manager for bus 'com.ubuntu.sso'.
+2011-01-15 14:50:02,087:87.8698825836 - ubuntu_sso.main - INFO - keyring_get_credentials: app_name "Ubuntu One", resulting credentials is not None? False
+2011-01-15 14:50:02,088:88.5820388794 - ubuntu_sso.main - INFO - find_credentials: app_name "Ubuntu One", result is {}? True
+2011-01-18 12:38:01,484:484.318971634 - ubuntu-sso-login - INFO - Starting Ubuntu SSO login manager for bus 'com.ubuntu.sso'.
+2011-01-18 12:38:01,581:581.830978394 - ubuntu_sso.main - INFO - keyring_get_credentials: app_name "Ubuntu One", resulting credentials is not None? False
+2011-01-18 12:38:01,582:582.186937332 - ubuntu_sso.main - INFO - find_credentials: app_name "Ubuntu One", result is {}? True
+2011-01-18 21:06:29,138:138.458013535 - ubuntu-sso-login - INFO - Starting Ubuntu SSO login manager for bus 'com.ubuntu.sso'.
+2011-01-18 21:06:29,161:161.76199913 - ubuntu_sso.main - INFO - keyring_get_credentials: app_name "Ubuntu One", resulting credentials is not None? False
+2011-01-18 21:06:29,162:162.053108215 - ubuntu_sso.main - INFO - find_credentials: app_name "Ubuntu One", result is {}? True
+2011-09-10 19:54:09,923:923.825979233 - ubuntu-sso-login - INFO - Starting Ubuntu SSO login manager for bus 'com.ubuntu.sso'.
+2011-09-10 19:54:09,963:963.728904724 - ubuntu_sso.main - INFO - keyring_get_credentials: app_name "Ubuntu One", resulting credentials is not None? False
+2011-09-10 19:54:09,964:964.106082916 - ubuntu_sso.main - INFO - find_credentials: app_name "Ubuntu One", result is {}? True

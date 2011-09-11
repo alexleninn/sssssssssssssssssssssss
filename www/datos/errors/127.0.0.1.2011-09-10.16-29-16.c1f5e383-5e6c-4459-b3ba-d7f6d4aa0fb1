@@ -1,0 +1,20 @@
+(dp1
+S'output'
+p2
+S''
+sS'layer'
+p3
+S'/home/alumno/web2py/applications/datos/models/db.py'
+p4
+sS'code'
+p5
+S"# -*- coding: utf-8 -*-\n\ndb=DAL('sqlite://datos.db');\ndb.define_table('alumno',Field('codigo'),\n                        Field('nombre'),\n                        Field('apellidos'),\n                        Field('fnacimiento','date'),\n                        Field('email'),\n                        Field('hobby','text'))\n                        \ndb.alumno.codigo.requires=IS_NOT_EMPTY(error_message='no puede estar vacio')\ndb.alumno.nombre.requires=IS_LENGTH(20,error_message='no mas de 20')\ndb.alumno.apellidos.requires=IS_ALPHANUMERIC()\ndb.alumno.fnacimiento.requires=IS_DATE('%Y-%m-%d')\ndb.alumno.email.requires=IS_EMAIL()\ndb.alumno.hobby.default='estudiar :P'\n\ndb.define_table('profesor',Field('codigo'),\n                            Field('nombre_completo'),\n                            Field('especialidad','text'),\n                            Field('anios_experiencia','integer'))\n                            \ndb.profesor.codigo.requires=IS_NOT_EMPTY()\ndb.profesor.codigo.requires=IS_ALPHANUMERIC()\ndb.profesor.nombre_completo.requires=IS_LENGTH(100)\ndb.profesor.nombre_completo.requires=IS_NOT_EMPTY()\ndb.profesor.anios_experiencia.requires=IS_INT_IN_RANGE(0,50)\n\ndb.define_table('curso',Field('codigo'),\n                        Field('nombre'),\n                        Field('descripcion'))\ndb.curso.codigo.requires=IS_NOT_EMPTY()\ndb.curso.codigo.requires=IS_ALPHANUMERIC()\ndb.curso.nombre.requires=IS_NOT_EMPTY()\ndb.curso.nombre.requires=IS_LENGTH(100)\ndb.curso.descripcion.requires=IS_LENGTH(160)\ndb.curso.descripcion.requires=IS_ALPHANUMERIC()\n\ndb.define_table('asistencia',Field('fecha','datetime'),\n                             Field('asistencia','boolean'),\n                             Field('cod_alumno',db.alumno))\ndb.asistencia.fecha.requires=IS_DATE('%d-%m-%Y %H:%M:%S')\ndb.asistencia.asistencia.requires=IS_NOT_EMPTY()\ndb.asistencia.cod_alumno.requieres=IS_NOT_EMPTY()\n\ndb.deifne_table('alumno_curso',Field('cod_alumno',db.alumno),\n                                Field('cod_curso',db.curso))\n\ndb.alumno_curso.cod_alumno.requires=IS_NOT_EMPTY()\ndb.alumno_curso.cod_curso.requires=IS_NOT_EMPTY()\ndb.alumno_curso.cod_curso.requires=IS_ALPHANUMERIC()\n"
+p6
+sS'snapshot'
+p7
+(dp8
+sS'traceback'
+p9
+S'Traceback (most recent call last):\n  File "/home/alumno/web2py/gluon/restricted.py", line 192, in restricted\n    exec ccode in environment\n  File "/home/alumno/web2py/applications/datos/models/db.py", line 46, in <module>\n    db.deifne_table(\'alumno_curso\',Field(\'cod_alumno\',db.alumno),\n  File "/home/alumno/web2py/gluon/dal.py", line 4251, in __getattr__\n    return self[key]\n  File "/home/alumno/web2py/gluon/dal.py", line 4245, in __getitem__\n    return dict.__getitem__(self, str(key))\nKeyError: \'deifne_table\'\n'
+p10
+s.

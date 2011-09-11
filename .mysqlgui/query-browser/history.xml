@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<history>
+  <history_entry>
+    <catalog>def</catalog>
+    <schema>phpmyadmin</schema>
+    <sql>SELECT * FROM pma_designer_coords p LIMIT 0,1000</sql>
+    <query_type>0</query_type>
+    <date_last_access>2011-01-13T16:28:40Z</date_last_access>
+  </history_entry>
+</history>

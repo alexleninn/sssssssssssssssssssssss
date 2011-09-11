@@ -1,0 +1,54 @@
+/etc/gdm/Xsession: Beginning session setup...
+Setting IM through im-switch for locale=es_PE.
+Start IM through /etc/X11/xinit/xinput.d/all_ALL linked to /etc/X11/xinit/xinput.d/default.
+GNOME_KEYRING_CONTROL=/tmp/keyring-Ti4bby
+GNOME_KEYRING_PID=1054
+GNOME_KEYRING_CONTROL=/tmp/keyring-Ti4bby
+SSH_AUTH_SOCK=/tmp/keyring-Ti4bby/ssh
+GNOME_KEYRING_CONTROL=/tmp/keyring-Ti4bby
+SSH_AUTH_SOCK=/tmp/keyring-Ti4bby/ssh
+
+(polkit-gnome-authentication-agent-1:1159): GLib-GObject-WARNING **: cannot register existing type `_PolkitError'
+
+(polkit-gnome-authentication-agent-1:1159): GLib-CRITICAL **: g_once_init_leave: assertion `initialization_value != 0' failed
+** Message: applet now removed from the notification area
+Initializing nautilus-gdu extension
+Unable to find a synaptics device.
+
+(nautilus:1156): GConf-CRITICAL **: gconf_value_free: assertion `value != NULL' failed
+
+** (nautilus:1156): WARNING **: Can not calculate _NET_NUMBER_OF_DESKTOPS
+
+** (nautilus:1156): WARNING **: Can not calculate _NET_NUMBER_OF_DESKTOPS
+
+** (nautilus:1156): WARNING **: Can not get _NET_WORKAREA
+
+** (nautilus:1156): WARNING **: Can not determine workarea, guessing at layout
+/usr/bin/compiz (core) - Fatal: Software rendering detected.
+/usr/bin/compiz (core) - Error: Failed to manage screen: 0
+/usr/bin/compiz (core) - Fatal: No manageable screens found on display :1.0
+** Message: applet now embedded in the notification area
+
+** (gnome-settings-daemon:1055): WARNING **: Got less number of items in credentials hash table than expected!
+** (update-notifier:1760): DEBUG: aptdaemon on bus: 0
+** (update-notifier:1760): DEBUG: Skipping reboot required
+<Window object at 0x97a69b4 (terminatorlib+window+Window at 0x9834000)> is not in registered window list
+
+(gnome-power-manager:1051): GLib-GObject-CRITICAL **: g_object_unref: assertion `G_IS_OBJECT (object)' failed
+Aviso del gestor de ventanas: CurrentTime used to choose focus window; focus window may not be correct.
+Aviso del gestor de ventanas: Got a request to focus the no_focus_window with a timestamp of 0.  This shouldn't happen!
+** Message: applet now removed from the notification area
+** Message: Got disconnected from the session message bus; retrying to reconnect every 10 seconds
+** Message: <info>  disconnected by the session bus.
+
+nm-applet: Fatal IO error 11 (Recurso no disponible temporalmente) on X server :1.0.
+bluetooth-applet: Fatal IO error 11 (Recurso no disponible temporalmente) on X server :1.0.
+gnome-screensaver: Fatal IO error 11 (Recurso no disponible temporalmente) on X server :1.0.
+gdu-notification-daemon: Fatal IO error 11 (Recurso no disponible temporalmente) on X server :1.0.
+update-notifier: Fatal IO error 11 (Recurso no disponible temporalmente) on X server :1.0.
+The application 'nautilus' lost its connection to the display :1.0;
+most likely the X server was shut down or you killed/destroyed
+the application.
+**
+GLib-GIO:ERROR:/build/buildd/glib2.0-2.26.0/gio/gdbusconnection.c:2270:initable_init: assertion failed: (connection->initialization_error == NULL)
+gnome-session[958]: WARNING: Running '/usr/bin/gconftool-2 --shutdown' at logout returned an exit status of '6'

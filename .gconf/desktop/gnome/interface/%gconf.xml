@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="icon_theme" mtime="1294857072" type="string">
+		<stringvalue>ubuntu-mono-light</stringvalue>
+	</entry>
+	<entry name="gtk_theme" mtime="1294857072" type="string">
+		<stringvalue>Radiance</stringvalue>
+	</entry>
+</gconf>

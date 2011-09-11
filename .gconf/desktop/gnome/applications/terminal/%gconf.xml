@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="exec_arg" mtime="1294872025" type="string">
+		<stringvalue>-x</stringvalue>
+	</entry>
+	<entry name="exec" mtime="1294872025" type="string">
+		<stringvalue>terminator</stringvalue>
+	</entry>
+</gconf>

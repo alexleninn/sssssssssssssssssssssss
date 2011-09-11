@@ -1,0 +1,43 @@
+timestamp: 2011-09-07T19:07:18.514571
+CREATE TABLE alumno(
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    codigo CHAR(512),
+    nombre CHAR(512),
+    apellidos CHAR(512),
+    fnacimiento CHAR(512),
+    email CHAR(512),
+    hobby CHAR(512)
+);
+success!
+timestamp: 2011-09-07T19:30:35.083232
+CREATE TABLE profesor(
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    codigo CHAR(512),
+    nombre_completo CHAR(512),
+    especialidad TEXT,
+    anios_experiencia INTEGER
+);
+success!
+timestamp: 2011-09-10T14:42:59.535133
+CREATE TABLE curso(
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    codigo CHAR(512),
+    nombre CHAR(512),
+    descripcion CHAR(512)
+);
+success!
+timestamp: 2011-09-10T16:29:16.667777
+CREATE TABLE asistencia(
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    fecha TIMESTAMP,
+    asistencia CHAR(1),
+    cod_alumno INTEGER REFERENCES alumno(id) ON DELETE CASCADE
+);
+success!
+timestamp: 2011-09-10T16:29:50.860270
+CREATE TABLE alumno_curso(
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    cod_alumno INTEGER REFERENCES alumno(id) ON DELETE CASCADE,
+    cod_curso INTEGER REFERENCES curso(id) ON DELETE CASCADE
+);
+success!

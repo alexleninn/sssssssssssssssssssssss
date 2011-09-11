@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="history_date_filter" mtime="1295122771" type="string">
+		<stringvalue>ever</stringvalue>
+	</entry>
+	<entry name="history_view_details" mtime="1295122759" type="list" ltype="string">
+		<li type="string">
+			<stringvalue>ViewTitle</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>ViewAddress</stringvalue>
+		</li>
+	</entry>
+</gconf>
